@@ -22,30 +22,30 @@ z = x + y
 puts "howdy".capitalize
 puts 2 + 3
 puts 2.even?
-puts "howdy".odd?
-puts "howdy" + 2
+# puts "howdy".odd?
+puts "howdy"*2
 puts "howdy".capitalize.reverse
 puts "howdy".capitalize.reverse.length
-puts "howdy".capitalize.reverse.odd?
-puts "howdy".capitalize.reverse.even?
-puts "howdy".capitalize.reverse.length.odd?
-puts "howdy".capitalize.reverse.length.even?
+# puts "howdy".capitalize.reverse.odd?
+# puts "howdy".capitalize.reverse.even?
+# puts "howdy".capitalize.reverse.length.odd?
+# puts "howdy".capitalize.reverse.length.even?
 
-# ==============================================================================
+# # ==============================================================================
 
 first = "Raghu"
 
-# What is the difference between
+# # What is the difference between
 
 puts "#{first}"
 
-# and
+# # and
 
 puts first
 
-# ==============================================================================
+# # ==============================================================================
 
-# Which of the following lines is valid Ruby?
+# # Which of the following lines is valid Ruby?
 
 puts("hello".gsub("l", "z"))
 puts "hello".gsub("l", "z")
@@ -53,9 +53,9 @@ puts("hello".gsub("l", "z")
 puts "hello".gsub "l", "z"
 puts "hello".gsub ("l", "z")
 
-# ==============================================================================
+# # ==============================================================================
 
-# What's wrong with the following?
+# # What's wrong with the following?
 
 password = "football"
 
